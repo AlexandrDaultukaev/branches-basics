@@ -9,6 +9,9 @@ int main() {
   if (strcmp(string, "2") == 0) {
   	strcpy(string, "second");
   }
+  if (strcmp(string, "1") == 0) {
+  	strcpy(string, "first");
+  }
   string[0] = toupper(string[0]);
   printf("%s commit\n", string);
   return 0;
